@@ -31,17 +31,24 @@ fn Home() -> Element {
             div {
                 class: "p-5",
                 div {
-                    class: "flex flex-col mx-auto px-16",
+                    class: "flex flex-row place-content-center space-x-4 mx-auto px-4 md:px-16 ",
                     div {
-                        class: "flex-initial px-1",
+                        class: "place-content-center",
                         img {
                             src: "HoP UKGGNPL 32x24.png",
-                            class: "size-6"
+                            class: "self-stretch"
                         }
                     }
                     div {
                         class: "flex-auto text-2xl", "House of Parliament"
                     }
+                }
+            }
+            div {
+                class: "flex max-h-52 justify-stretch",
+                img {
+                    src: "westminster palace.jpg",
+                    class: "object-coverr"
                 }
             }
         }
