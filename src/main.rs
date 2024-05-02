@@ -45,10 +45,10 @@ fn Home() -> Element {
                 }
             }
             div {
-                class: "flex max-h-52 justify-stretch",
+                class: "flex h-52",
                 img {
                     src: "westminster palace.jpg",
-                    class: "object-coverr"
+                    class: "object-cover flex-grow"
                 }
             }
         }
