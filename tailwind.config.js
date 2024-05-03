@@ -6,6 +6,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'westminster': "url('/assets/westminster palace.jpg')",
+      },
+      colors: {
+        'lordscolour': '#ae3225',
+        'commonscolour': '#1b9e9c'
       }
     },
   },
