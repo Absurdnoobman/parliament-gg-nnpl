@@ -1,5 +1,7 @@
 #![allow(non_snake_case)]
 
+mod data;
+
 use dioxus::prelude::*;
 use tracing::Level;
 
@@ -219,7 +221,7 @@ fn HouseOfCommons() -> Element {
                             }
                             div {
                                 class: "text-sm",
-                                "dsfadsg"
+                                "Select committees, standing committees, joint committees and grand committees"
                             }
                         }
                     }
