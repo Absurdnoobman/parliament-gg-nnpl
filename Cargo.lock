@@ -1238,6 +1238,7 @@ dependencies = [
  "dioxus-logger",
  "manganis",
  "serde",
+ "serde_json",
  "tracing",
 ]
 
